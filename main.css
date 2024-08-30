@@ -42,13 +42,13 @@ button {
     cursor: pointer;
     
     padding: 15px;
-    
-    transition: background-color 0.3s ease-in;
 }
 
 button:hover {
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246, 152, 12, 0.2);
+
+    transition: background-color 0.3s ease-in;
 }
 
 input {
@@ -108,7 +108,6 @@ select {
 .form {
     display: flex;
     justify-content: center;
-    align-items: center;
     
     background-color: #1D253A;
     
@@ -138,18 +137,18 @@ select {
     font-size: 18px;
     font-weight: 600;
     
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.form input, select {
+.form input, .form select {
     font-size: 18px;
-    color: 213053;
+    color: #213053;
     
     height: 60px;
     border: none;
     border-radius: 15px;
     
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
 }
 
 .form__submit {
